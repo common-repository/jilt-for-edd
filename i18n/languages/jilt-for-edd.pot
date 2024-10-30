@@ -1,0 +1,692 @@
+# Copyright (C) 2021 Jilt
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Jilt for Easy Digital Downloads 1.5.4\n"
+"Report-Msgid-Bugs-To: "
+"https://woocommerce.com/my-account/marketplace-ticket-form/\n"
+"POT-Creation-Date: 2021-06-15 06:27:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: class-edd-jilt.php:245
+msgid ""
+"Jilt works best with the PHP function random_bytes(), which is not "
+"available on your site. Please ask your hosting provider to assist with this"
+msgstr ""
+
+#: class-edd-jilt.php:260
+#. translators: Placeholders: %1$s - connection error reason
+msgid ""
+"Heads up! Jilt for EDD is not able to communicate with the EDD REST API: "
+"%1$s"
+msgstr ""
+
+#: class-edd-jilt.php:281
+msgid ""
+"Heads up! There's a faster and more secure way to connect your shop to "
+"Jilt. Click the Reconnect button below to upgrade now."
+msgstr ""
+
+#: class-edd-jilt.php:285
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"There's a faster and more secure way to connect your shop to Jilt. "
+"%1$sReconnect your shop%2$s now to upgrade, it only takes 30 seconds :)"
+msgstr ""
+
+#: class-edd-jilt.php:301
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Thanks for installing Jilt! To get started, %1$sconnect your shop to "
+"Jilt%2$s :)"
+msgstr ""
+
+#: class-edd-jilt.php:303
+msgid ""
+"Thanks for installing Jilt! To get started, connect your shop to Jilt below "
+":)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Jilt for Easy Digital Downloads"
+msgstr ""
+
+#: includes/Functions.php:55
+#: includes/admin/views/html-admin-widget-settings.php:78
+#: includes/class-edd-jilt-ajax.php:122
+#: includes/frontend/class-edd-jilt-frontend.php:249
+msgid "Subscribe"
+msgstr ""
+
+#: includes/Widget.php:56
+msgid "Allow your customers to opt into Jilt emails."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jilt"
+msgstr ""
+
+#: includes/Widget.php:221
+msgid "You must %1$sconnect to Jilt%2$s before using this widget."
+msgstr ""
+
+#: includes/Widget.php:231
+msgid "Oops, something went wrong: %s"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-orders.php:78
+msgid "Jilt Status:"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-orders.php:80
+msgid "Recovered"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:101
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:115
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:128
+msgid ""
+"Send automated emails to help recover abandoned carts, ask for product "
+"reviews, drive repeat purchases, and more."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:154
+msgid "Save settings"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:177
+msgid ""
+"Hooray, your store is now connected to Jilt! You're ready to start sending "
+"automated emails and driving more revenue!"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:178
+msgid "Let's talk next steps:"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:183
+#. translators: Placeholders: %1$s - opening <a> tag, %2$s - closing </a> tag
+msgid ""
+"You can %1$sview your Jilt dashboard here%2$s — setting up your first "
+"campaign takes only minutes and lets you start recovering revenue right "
+"away."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:185
+#. translators: Placeholders: %1$s - opening <a> tag, %2$s - closing </a> tag
+msgid ""
+"You can adjust your shop's %1$sStorefront settings here%2$s. We recommend "
+"enabling add-to-cart popovers to collect more emails from customers "
+"(increasing the number of carts you can recover)."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:187
+#. translators: Placeholders: %1$s - opening <a> tag, %2$s - closing </a> tag
+msgid ""
+"You can see the %1$splugin settings here%2$s. We recommend keeping debug "
+"mode off unless you're working on an issue with our support team."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:189
+#. translators: Placeholders: %1$s and %3$s - opening <a> tag, %2$s and %4$s -
+#. closing </a> tag
+msgid ""
+"If you run into any questions or issues, our %1$sknowledge base is here%2$s "
+"and you can %3$sreach our support team here%4$s."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:195
+#. translators: Placeholders: %1$s opening <a> tag, %2$s - closing </a> tag
+msgid "Ready to keep going? %1$sLet's start configuring!%2$s"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:263
+msgid ""
+"Jilt is connected, but secret key authentication is deprecated. Please "
+"re-connect to Jilt."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:269
+#: includes/admin/class-edd-jilt-admin-settings.php:299
+msgid "Re-connect to Jilt"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:276
+msgid "Jilt is connected!"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:286
+msgid "Disconnect from Jilt"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:299
+#: includes/admin/class-edd-jilt-admin.php:268
+msgid "Connect to Jilt"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:310
+msgid ""
+"Please note an existing Jilt account is required to complete the connection "
+"and we're no longer accepting new account signups."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:348
+msgid "Your shop is now disconnected from Jilt."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:419
+msgid "Shop is now linked to Jilt!"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:440
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag, %3$s - <a> tag,
+#. %4$s - </a> tag
+msgid ""
+"Please try re-connecting to Jilt or %1$sget in touch with Jilt Support%2$s "
+"to resolve this issue."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:480
+#. translators: %1$s - Jilt, %2$s - five stars
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:482
+msgid "Thanks :)"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-settings.php:487
+msgid "Thank you for recovering sales with Jilt."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:147
+msgid "Clear Jilt connection data"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:149
+msgid ""
+"This tool will clear all Jilt connection data from the database, including "
+"OAuth client credentials."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:154
+msgid "Clear"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:176
+msgid ""
+"This tool will delete unused, expired discounts that were created by Jilt "
+"(up to %s at a time)"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:182
+msgid "Delete Jilt Discounts"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:189
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:231
+msgid "Jilt connection data has been cleared."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:257
+msgid "Success! %d Jilt discount deleted."
+msgid_plural "Success! %d Jilt discounts deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-edd-jilt-admin-tools.php:259
+msgid "Success! All unused, expired Jilt discounts have been deleted."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:127
+msgid "Heads up!"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:133
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
+msgid ""
+"Please note that %1$sdeactivating this plugin will not cancel your Jilt "
+"account%2$s. If you want to cancel your Jilt account, please do so from "
+"your Jilt billing area."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:144
+msgid "Don't show me this again"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:150
+msgid "Deactivate plugin"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:151
+msgid "Go to Jilt account"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:238
+msgid "Are you sure you want to disconnect your shop from your Jilt account?"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:239
+msgid "Please select an option"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:240
+msgid ""
+"Are you sure you want to revoke this API key? Jilt for EDD will not work "
+"properly."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:241
+msgid "Jilt for EDD will no longer work properly"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:300
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s </a> tag
+msgid ""
+"It looks like this site has moved or is a duplicate site. %1$sJilt for Easy "
+"Digital Downloads%2$s has been disabled to prevent sending recovery emails "
+"from a staging or test environment. For more information please %3$sget in "
+"touch%4$s."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:318
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag, %3$s - <a> tag,
+#. %4$s - </a> tag
+msgid ""
+"Please try re-connecting to Jilt or %1$sget in touch with Jilt Support%2$s "
+"to help resolve this issue."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:363
+#: includes/handlers/class-edd-jilt-connection-handler.php:117
+#: includes/handlers/class-edd-jilt-connection-handler.php:170
+#: includes/handlers/class-edd-jilt-connection-handler.php:248
+#: includes/handlers/class-edd-jilt-connection-handler.php:262
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "Please %1$sget in touch with Jilt Support%2$s to resolve this issue."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:375
+#: includes/handlers/class-edd-jilt-connection-handler.php:113
+#: includes/handlers/class-edd-jilt-connection-handler.php:166
+#: includes/handlers/class-edd-jilt-connection-handler.php:244
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. error message, %4$s - solution message
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. error message, %3$s - solution message
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. error message, %4$s - solution message
+msgid "%1$sError communicating with Jilt%2$s: %3$s %4$s"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:415
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Shop not found, please try re-connecting to Jilt or %1$sget in touch with "
+"Jilt Support%2$s to resolve this issue."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:423
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Shop not authorized, please try re-connecting to Jilt or %1$sget in touch "
+"with Jilt Support%2$s to resolve this issue."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:447
+msgid "Jilt Log Viewer"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:502
+msgid "Sorry, you don't have permission to do that."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:509
+msgid "Success! The EDD REST API has been configured for Jilt."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:511
+msgid "Oops! Something went wrong. Please try re-connecting to Jilt."
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:520
+#. translators: Placeholders: %1$s - error message
+msgid "Error configuring EDD REST API: %1$s"
+msgstr ""
+
+#: includes/admin/class-sv-wp-admin-notice-handler.php:250
+#. translators: this is an action that dismisses a message
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:39
+msgid "Title"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:40
+msgid "Join our mailing list"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:43
+msgid "Ask for first and last name?"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:45
+msgid "Hide name fields"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:46
+msgid "Offer name fields"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:47
+msgid "Require name fields"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:51
+msgid "Lists"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:58
+msgid "Choose a list&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:69
+msgid "Select lists customers should be added to in Jilt (optional)"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:72
+msgid "Tag new subscribers"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:74
+msgid "Enter a comma-separated list of tags (optional)"
+msgstr ""
+
+#: includes/admin/views/html-admin-widget-settings.php:77
+msgid "Submit button text"
+msgstr ""
+
+#: includes/api/class-edd-jilt-api-base.php:124
+msgid "Missing authentication token"
+msgstr ""
+
+#: includes/class-edd-jilt-ajax.php:118 includes/class-edd-jilt-ajax.php:173
+msgid "Oops, something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-edd-jilt-ajax.php:131
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/class-edd-jilt-ajax.php:169
+msgid "Thanks for subscribing!"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:61
+msgid "Secret Key"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:63
+#. translators: Placeholders: %1$s - opening HTML <a> link tag, %2$s - closing
+#. </a> HTML link tag
+msgid "Get this from your %1$sJilt account%2$s"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:73
+#. translators: Placeholders: %1$s - opening HTML <a> link tag, %2$s - closing
+#. </a> HTML link tag
+msgid "%1$sGo to Jilt dashboard%2$s"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:75
+#. translators: Placeholders: %1$s - opening HTML <a> link tag, %2$s - closing
+#. </a> HTML link tag
+msgid "%1$sGet Support!%2$s"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:225
+#. translators: Placeholders: %1$s - <code>path/to/log</code>
+msgid ""
+"Save detailed error messages and API requests/responses to the debug log: "
+"%1$s"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:231
+msgid "Logging"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:240
+msgid "Info"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:241
+msgid "Warning"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:242
+msgid "Error"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:243
+msgid "Emergency"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:260
+msgid "Post-checkout registration"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:263
+msgid "Prompt guest purchasers to register with one-click after placing an order."
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:280
+msgid "Connection Status"
+msgstr ""
+
+#: includes/class-edd-jilt-upgrades.php:255
+#. translators: Placeholders: %1$s - <a> tag, %2$s </a> tag
+msgid "Connection error with Jilt please %1$sreconnect your shop%2$s now."
+msgstr ""
+
+#: includes/class-sv-edd-plugin.php:103
+#. translators: Placeholders: %s - plugin name
+msgid "You cannot clone instances of %s."
+msgstr ""
+
+#: includes/class-sv-edd-plugin.php:114
+#. translators: Placeholders: %s - plugin name
+msgid "You cannot unserialize instances of %s."
+msgstr ""
+
+#: includes/class-sv-edd-plugin.php:177
+#. translators: Docs as in Documentation
+msgid "Docs"
+msgstr ""
+
+#: includes/class-sv-edd-plugin.php:346
+msgid "Configure"
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:199
+msgid "Reserve this item in your cart!"
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:208
+msgid "Continue"
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:304
+#. translators: Placeholders: %1$s, %3$s - opening HTML <a> link tag, %2$s -
+#. closing HTML </a> link tag
+msgid ""
+"Your cart is saved while logged in so we can send you email reminders about "
+"it. %1$sGot it!%2$s %3$sNo thanks.%2$s"
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:332
+msgid "No thanks, I'll enter my email later."
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:362
+#. translators: Placeholders: %1$s - opening HTML <a> link tag, %2$s - closing
+#. HTML </a> link tag
+msgid ""
+"Your email and cart are saved so we can send you email reminders about this "
+"order. %1$sNo thanks%2$s."
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:433
+msgid ""
+"Ensure checkout is fast and easy next time! Create an account and we'll "
+"save your details from this order."
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:434
+msgid "Create Account"
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:453
+msgid "Whoops, looks like this registration link is not valid."
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:465
+#. translators: Placeholder: %s - first name
+msgid "Welcome, %s! Please check your email to verify your account."
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:490
+msgid ""
+"This order does not exist; it may have been deleted. Please register "
+"manually."
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:497
+msgid "Invalid registration link. Please register manually."
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:625
+#. translators: Placeholders: %1$s - <a>, %2$s - </a>
+msgid "Welcome! Please %1$sset your password%2$s, and thanks for registering!"
+msgstr ""
+
+#: includes/frontend/class-edd-jilt-frontend.php:629
+#. translators: Placeholders: %1$s - <a>, %2$s - </a>
+msgid ""
+"Cannot log in automatically. Please %1$sre-set your password%2$s to log in "
+"manually."
+msgstr ""
+
+#: includes/handlers/class-edd-jilt-checkout-handler.php:317
+msgid "Recovered by Jilt."
+msgstr ""
+
+#: includes/handlers/class-edd-jilt-connection-handler.php:231
+msgid ""
+"Congratulations! Your shop is now connected to Jilt. You're now ready to "
+"%1$ssetup your first campaign%2$s to start sending emails to your customers."
+msgstr ""
+
+#: includes/handlers/class-edd-jilt-connection-handler.php:258
+msgid "%1$sError creating EDD API credentials%2$s: %3$s %4$s"
+msgstr ""
+
+#: includes/handlers/class-edd-jilt-customer-handler.php:82
+msgid "You cannot set a customer email for logged-in user."
+msgstr ""
+
+#: includes/handlers/class-edd-jilt-edd-api-handler.php:183
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Pretty permalinks are disabled. %1$sPlease update your permalink "
+"settings%2$s to enable API access for Jilt."
+msgstr ""
+
+#: includes/handlers/class-edd-jilt-edd-api-handler.php:191
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"API key does not exist. %1$sClick here%2$s to create an EDD API key for "
+"Jilt."
+msgstr ""
+
+#: includes/handlers/class-edd-jilt-edd-api-handler.php:199
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"API key owner permissions are not sufficient. %1$sClick here%2$s to correct "
+"the EDD API key for Jilt."
+msgstr ""
+
+#: includes/handlers/class-edd-jilt-recovery-handler.php:357
+msgid "Customer visited Jilt payment recovery URL."
+msgstr ""
+
+#: includes/integrations/class-edd-jilt-free-downloads-integration.php:56
+msgid "Free Downloads"
+msgstr ""
+
+#: includes/integrations/class-edd-jilt-simple-shipping-integration.php:59
+msgid "Simple Shipping"
+msgstr ""
+
+#: includes/integrations/class-edd-jilt-software-licensing-integration.php:72
+msgid "Software Licensing"
+msgstr ""
+
+#: templates/jilt-subscribe-form.php:57
+msgid "First name"
+msgstr ""
+
+#: templates/jilt-subscribe-form.php:62
+msgid "Last name"
+msgstr ""
+
+#: templates/jilt-subscribe-form.php:69
+msgid "Email address"
+msgstr ""
+
+#: templates/jilt-subscribe-form.php:75
+msgid "Anti-spam"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/jilt-for-edd/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Recover abandoned carts and boost revenue by 15% or more in under 15 minutes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://jilt.com"
+msgstr ""
+
+#: includes/admin/class-edd-jilt-admin.php:264
+#: includes/class-sv-edd-plugin.php:182
+msgctxt "noun"
+msgid "Support"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:238
+msgctxt "Logging disabled"
+msgid "Off"
+msgstr ""
+
+#: includes/class-edd-jilt-settings.php:239
+msgctxt "Log level debug"
+msgid "Debug"
+msgstr ""
